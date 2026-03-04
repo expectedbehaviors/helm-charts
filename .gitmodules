@@ -1,0 +1,30 @@
+[submodule "charts/radarr"]
+	path = charts/radarr
+	url = git@github.com:expectedbehaviors/radarr.git
+[submodule "charts/sonarr"]
+	path = charts/sonarr
+	url = git@github.com:expectedbehaviors/sonarr.git
+[submodule "charts/lidarr"]
+	path = charts/lidarr
+	url = git@github.com:expectedbehaviors/lidarr.git
+[submodule "charts/readarr"]
+	path = charts/readarr
+	url = git@github.com:expectedbehaviors/readarr.git
+[submodule "charts/prowlarr"]
+	path = charts/prowlarr
+	url = git@github.com:expectedbehaviors/prowlarr.git
+[submodule "charts/gotify"]
+	path = charts/gotify
+	url = git@github.com:expectedbehaviors/gotify.git
+[submodule "charts/mealie"]
+	path = charts/mealie
+	url = git@github.com:expectedbehaviors/mealie.git
+[submodule "charts/reloader"]
+	path = charts/reloader
+	url = git@github.com:expectedbehaviors/reloader.git
+[submodule "charts/oauth2-proxy"]
+	path = charts/oauth2-proxy
+	url = git@github.com:expectedbehaviors/oauth2-proxy.git
+[submodule "charts/plex-autoskip"]
+	path = charts/plex-autoskip
+	url = git@github.com:expectedbehaviors/plex-autoskip-helm-chart.git

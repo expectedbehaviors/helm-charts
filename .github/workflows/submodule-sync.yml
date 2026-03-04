@@ -1,0 +1,36 @@
+name: Sync Submodules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Update submodules to latest default branch
+        run: |
+          git submodule sync --recursive
+          git submodule update --init --recursive --remote --merge
+
+      - name: Create PR when submodules change
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: automation/submodule-sync
+          title: "chore: sync chart submodules"
+          body: |
+            ## Summary
+            - Update chart submodules to latest upstream commits.
+            - Generated automatically by `submodule-sync.yml`.
+          commit-message: "chore: sync chart submodules"
+          delete-branch: true
