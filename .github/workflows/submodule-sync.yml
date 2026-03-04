@@ -21,7 +21,7 @@ jobs:
       - name: Update submodules to latest default branch
         run: |
           git submodule sync --recursive
-          git submodule update --init --recursive --remote --merge
+          git submodule update --init --recursive --remote
 
       - name: Create PR when submodules change
         uses: peter-evans/create-pull-request@v6
