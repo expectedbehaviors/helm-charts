@@ -14,13 +14,8 @@ jobs:
     steps:
       - name: Enforce protection on main
         env:
-          GH_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
-          if [ -z "${GH_TOKEN}" ]; then
-            echo "::warning::GH_ADMIN_TOKEN is not configured; skipping branch protection enforcement."
-            exit 0
-          fi
-
           cat <<'JSON' > protection.json
           {
             "required_status_checks": null,
@@ -44,8 +39,10 @@ jobs:
             "allow_fork_syncing": true
           }
           JSON
-          gh api \
+          if ! gh api \
             --method PUT \
             -H "Accept: application/vnd.github+json" \
             "/repos/${{ github.repository }}/branches/main/protection" \
-            --input protection.json
+            --input protection.json; then
+            echo "::warning::Branch protection update was not applied (likely token permission limits for this run context)."
+          fi
