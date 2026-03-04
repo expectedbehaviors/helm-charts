@@ -36,3 +36,9 @@ Public umbrella repository for expectedbehaviors Helm charts, managed as Git sub
 git submodule update --init --recursive
 git submodule update --remote --merge
 ```
+
+## Branch protection policy
+
+- `main` requires at least one approving review for non-owner contributors.
+- `jd4883` is allowed to bypass the review requirement.
+- Policy is enforced by workflow and can be re-applied via manual dispatch.
