@@ -29,6 +29,9 @@ Public umbrella repository for expectedbehaviors Helm charts, managed as Git sub
 | reloader | https://github.com/expectedbehaviors/reloader |
 | oauth2-proxy | https://github.com/expectedbehaviors/oauth2-proxy |
 | plex-autoskip | https://github.com/expectedbehaviors/plex-autoskip-helm-chart |
+| tunnel-interface | https://github.com/expectedbehaviors/tunnel-interface |
+| ipmi-fan-control | https://github.com/expectedbehaviors/ipmi-fan-control |
+| external-services | https://github.com/expectedbehaviors/external-services |
 
 ## Updating submodules manually
 
