@@ -28,3 +28,12 @@
 [submodule "charts/plex-autoskip"]
 	path = charts/plex-autoskip
 	url = git@github.com:expectedbehaviors/plex-autoskip-helm-chart.git
+[submodule "charts/tunnel-interface"]
+	path = charts/tunnel-interface
+	url = git@github.com:expectedbehaviors/tunnel-interface.git
+[submodule "charts/ipmi-fan-control"]
+	path = charts/ipmi-fan-control
+	url = git@github.com:expectedbehaviors/ipmi-fan-control.git
+[submodule "charts/external-services"]
+	path = charts/external-services
+	url = git@github.com:expectedbehaviors/external-services.git
