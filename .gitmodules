@@ -37,3 +37,6 @@
 [submodule "charts/external-services"]
 	path = charts/external-services
 	url = git@github.com:expectedbehaviors/external-services.git
+[submodule "charts/mylar"]
+	path = charts/mylar
+	url = git@github.com:expectedbehaviors/mylar.git
