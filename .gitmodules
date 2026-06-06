@@ -40,3 +40,9 @@
 [submodule "charts/mylar"]
 	path = charts/mylar
 	url = git@github.com:expectedbehaviors/mylar.git
+[submodule "charts/bazarr"]
+	path = charts/bazarr
+	url = git@github.com:expectedbehaviors/bazarr.git
+[submodule "charts/unpackerr"]
+	path = charts/unpackerr
+	url = git@github.com:expectedbehaviors/unpackerr.git
