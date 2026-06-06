@@ -32,6 +32,9 @@ Public umbrella repository for expectedbehaviors Helm charts, managed as Git sub
 | tunnel-interface | https://github.com/expectedbehaviors/tunnel-interface |
 | ipmi-fan-control | https://github.com/expectedbehaviors/ipmi-fan-control |
 | external-services | https://github.com/expectedbehaviors/external-services |
+| mylar | https://github.com/expectedbehaviors/mylar |
+| bazarr | https://github.com/expectedbehaviors/bazarr |
+| unpackerr | https://github.com/expectedbehaviors/unpackerr |
 
 ## Updating submodules manually
 
