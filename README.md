@@ -35,6 +35,11 @@ Public umbrella repository for expectedbehaviors Helm charts, managed as Git sub
 | mylar | https://github.com/expectedbehaviors/mylar |
 | bazarr | https://github.com/expectedbehaviors/bazarr |
 | unpackerr | https://github.com/expectedbehaviors/unpackerr |
+| tautulli | https://github.com/expectedbehaviors/tautulli |
+| ombi | https://github.com/expectedbehaviors/ombi |
+| audiobookshelf | https://github.com/expectedbehaviors/audiobookshelf |
+| kavita | https://github.com/expectedbehaviors/kavita |
+| gaps | https://github.com/expectedbehaviors/gaps |
 
 ## Updating submodules manually
 
