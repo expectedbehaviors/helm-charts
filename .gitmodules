@@ -22,6 +22,9 @@
 [submodule "charts/reloader"]
 	path = charts/reloader
 	url = git@github.com:expectedbehaviors/reloader.git
+[submodule "charts/seaweedfs"]
+	path = charts/seaweedfs
+	url = git@github.com:expectedbehaviors/seaweedfs.git
 [submodule "charts/oauth2-proxy"]
 	path = charts/oauth2-proxy
 	url = git@github.com:expectedbehaviors/oauth2-proxy.git
