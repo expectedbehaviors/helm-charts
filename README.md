@@ -17,6 +17,18 @@ Public umbrella repository for expectedbehaviors Helm charts, managed as Git sub
 
 ## Chart catalog
 
+### Platform (core)
+
+| Chart | Repository |
+|---|---|
+| cert-manager | https://github.com/expectedbehaviors/cert-manager |
+| external-dns | https://github.com/expectedbehaviors/external-dns |
+| kubernetes-replicator | https://github.com/expectedbehaviors/kubernetes-replicator |
+| nginx | https://github.com/expectedbehaviors/nginx |
+| purelb | https://github.com/expectedbehaviors/purelb |
+
+### Applications
+
 | Chart | Repository |
 |---|---|
 | radarr | https://github.com/expectedbehaviors/radarr |
@@ -27,6 +39,7 @@ Public umbrella repository for expectedbehaviors Helm charts, managed as Git sub
 | gotify | https://github.com/expectedbehaviors/gotify |
 | mealie | https://github.com/expectedbehaviors/mealie |
 | reloader | https://github.com/expectedbehaviors/reloader |
+| seaweedfs | https://github.com/expectedbehaviors/seaweedfs |
 | oauth2-proxy | https://github.com/expectedbehaviors/oauth2-proxy |
 | plex-autoskip | https://github.com/expectedbehaviors/plex-autoskip-helm-chart |
 | tunnel-interface | https://github.com/expectedbehaviors/tunnel-interface |
