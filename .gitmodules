@@ -46,3 +46,18 @@
 [submodule "charts/unpackerr"]
 	path = charts/unpackerr
 	url = git@github.com:expectedbehaviors/unpackerr.git
+[submodule "charts/tautulli"]
+	path = charts/tautulli
+	url = git@github.com:expectedbehaviors/tautulli.git
+[submodule "charts/ombi"]
+	path = charts/ombi
+	url = git@github.com:expectedbehaviors/ombi.git
+[submodule "charts/audiobookshelf"]
+	path = charts/audiobookshelf
+	url = git@github.com:expectedbehaviors/audiobookshelf.git
+[submodule "charts/kavita"]
+	path = charts/kavita
+	url = git@github.com:expectedbehaviors/kavita.git
+[submodule "charts/gaps"]
+	path = charts/gaps
+	url = git@github.com:expectedbehaviors/gaps.git
