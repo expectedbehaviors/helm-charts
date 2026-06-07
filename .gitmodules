@@ -64,3 +64,18 @@
 [submodule "charts/gaps"]
 	path = charts/gaps
 	url = git@github.com:expectedbehaviors/gaps.git
+[submodule "charts/cert-manager"]
+	path = charts/cert-manager
+	url = git@github.com:expectedbehaviors/cert-manager.git
+[submodule "charts/external-dns"]
+	path = charts/external-dns
+	url = git@github.com:expectedbehaviors/external-dns.git
+[submodule "charts/kubernetes-replicator"]
+	path = charts/kubernetes-replicator
+	url = git@github.com:expectedbehaviors/kubernetes-replicator.git
+[submodule "charts/nginx"]
+	path = charts/nginx
+	url = git@github.com:expectedbehaviors/nginx.git
+[submodule "charts/purelb"]
+	path = charts/purelb
+	url = git@github.com:expectedbehaviors/purelb.git
