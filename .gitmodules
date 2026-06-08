@@ -79,3 +79,18 @@
 [submodule "charts/purelb"]
 	path = charts/purelb
 	url = git@github.com:expectedbehaviors/purelb.git
+[submodule "charts/home-assistant"]
+	path = charts/home-assistant
+	url = git@github.com:expectedbehaviors/home-assistant.git
+[submodule "charts/immich"]
+	path = charts/immich
+	url = git@github.com:expectedbehaviors/immich.git
+[submodule "charts/kometa"]
+	path = charts/kometa
+	url = git@github.com:expectedbehaviors/kometa.git
+[submodule "charts/komga"]
+	path = charts/komga
+	url = git@github.com:expectedbehaviors/komga.git
+[submodule "charts/kubernetes-dashboard"]
+	path = charts/kubernetes-dashboard
+	url = git@github.com:expectedbehaviors/kubernetes-dashboard.git
