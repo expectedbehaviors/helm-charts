@@ -112,3 +112,18 @@
 [submodule "charts/longhorn"]
 	path = charts/longhorn
 	url = git@github.com:expectedbehaviors/longhorn.git
+[submodule "charts/plex"]
+	path = charts/plex
+	url = git@github.com:expectedbehaviors/plex.git
+[submodule "charts/atlantis"]
+	path = charts/atlantis
+	url = git@github.com:expectedbehaviors/atlantis.git
+[submodule "charts/harbor"]
+	path = charts/harbor
+	url = git@github.com:expectedbehaviors/harbor.git
+[submodule "charts/portainer"]
+	path = charts/portainer
+	url = git@github.com:expectedbehaviors/portainer.git
+[submodule "charts/prometheus"]
+	path = charts/prometheus
+	url = git@github.com:expectedbehaviors/prometheus.git
