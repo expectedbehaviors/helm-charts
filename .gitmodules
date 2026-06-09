@@ -112,6 +112,3 @@
 [submodule "charts/longhorn"]
 	path = charts/longhorn
 	url = git@github.com:expectedbehaviors/longhorn.git
-[submodule "charts/onepassword-connect"]
-	path = charts/onepassword-connect
-	url = git@github.com:expectedbehaviors/onepassword-connect.git
