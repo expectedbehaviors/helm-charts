@@ -94,3 +94,15 @@
 [submodule "charts/kubernetes-dashboard"]
 	path = charts/kubernetes-dashboard
 	url = git@github.com:expectedbehaviors/kubernetes-dashboard.git
+[submodule "charts/minio"]
+	path = charts/minio
+	url = git@github.com:expectedbehaviors/minio.git
+[submodule "charts/nextcloud"]
+	path = charts/nextcloud
+	url = git@github.com:expectedbehaviors/nextcloud.git
+[submodule "charts/nvidia-device-plugin"]
+	path = charts/nvidia-device-plugin
+	url = git@github.com:expectedbehaviors/nvidia-device-plugin.git
+[submodule "charts/organizr"]
+	path = charts/organizr
+	url = git@github.com:expectedbehaviors/organizr.git
